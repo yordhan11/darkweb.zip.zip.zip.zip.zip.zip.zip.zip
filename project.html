@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Page | Yordhan</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+
+            background:
+                linear-gradient(rgba(0, 0, 0, 0.65),
+                                rgba(0, 0, 0, 0.75)),
+                url("./gambar/red moon.jpg");
+
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        nav {
+            padding: 22px;
+            background: rgba(0, 0, 0, 0.65);
+            border-bottom: 1px solid red;
+        }
+
+        nav a {
+            color: #ff4444;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+            text-shadow: 0 0 12px red;
+        }
+
+        main {
+            padding: 50px 20px;
+        }
+
+        h1, h2 {
+            color: #ff2020;
+            text-shadow: 0 0 8px red, 0 0 20px red;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .card {
+            max-width: 600px;
+            margin: 25px auto;
+            padding: 25px;
+            background: rgba(0, 0, 0, 0.7);
+            border: 1px solid red;
+            border-radius: 14px;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.45);
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 24px;
+            background: #d90000;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #ff2222;
+            box-shadow: 0 0 18px red;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="project.html">HALAMAN 2</a>
+    </nav>
+
+    <main>
+        <h1>BUY/SELL PAGE</h1>
+        <p>in this page you can buy/sell anything</p>
+
+        <div class="card">
+            <h2>kartu pokemon</h2>
+            <p>700k</p>
+        </div>
+
+        <div class="card">
+            <h2>paru paru pria random</h2>
+            <p>500k (paru paru ny dh ireng jir kebanyakan udud)</p>
+        </div>
+
+        <div class="card">
+            <h2>batok casan samsung (ori)</h2>
+            <p>100k (tidak termasuk kabel data)</p>
+        </div>
+
+        <a class="button" href="index.html">← Back to Home</a>
+    </main>
+</body>
+</html>

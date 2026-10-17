@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Yordhan</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            min-height: 100vh;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+
+            background:
+                linear-gradient(rgba(0, 0, 0, 0.65),
+                                rgba(0, 0, 0, 0.75)),
+                url("./gambar/red moon.jpg");
+
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+
+        nav {
+            padding: 22px;
+            background: rgba(0, 0, 0, 0.65);
+            border-bottom: 1px solid #ff0000;
+        }
+
+        nav a {
+            color: #ff4444;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: white;
+            text-shadow: 0 0 12px red;
+        }
+
+        main {
+            padding: 70px 20px;
+        }
+
+        h1 {
+            color: #ff2020;
+            font-size: 42px;
+            text-shadow: 0 0 8px red, 0 0 25px red;
+            animation: neon 2s infinite alternate;
+        }
+
+        h2 {
+            color: #ff4444;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7;
+        }
+
+        .card {
+            max-width: 600px;
+            margin: 25px auto;
+            padding: 25px;
+            background: rgba(0, 0, 0, 0.65);
+            border: 1px solid #ff2222;
+            border-radius: 14px;
+            box-shadow: 0 0 15px rgba(255, 0, 0, 0.45);
+        }
+
+        .button {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 12px 24px;
+            background: #d90000;
+            color: white;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #ff2222;
+            box-shadow: 0 0 18px red;
+        }
+
+        @keyframes neon {
+            from {
+                text-shadow: 0 0 5px red;
+            }
+            to {
+                text-shadow: 0 0 12px red, 0 0 28px red;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="project.html">HALAMAN 2</a>
+    </nav>
+
+    <main>
+        <h1>WELCOME TO DARK WEB</h1>
+        <p>this is a website where you can sell anything.</p>
+        <p>anything. selling organs, selling data,selling rice,jual pulsa, jual helm, dan jual apalah terserah </p>
+
+        <div class="card">
+            <h2>this web is very secret</h2>
+            <p>even pemerintah tidak tahu tentang website ini</p>
+
+            <h2>developed by yordhan</h2>
+            <p>salah satu manusia tampan dan jenius</p>
+            
+
+            <a class="button" href="project.html">
+                                              next page →
+            </a>
+        </div>
+    </main>
+</body>
+</html>
